@@ -9,3 +9,11 @@
 #header{
     padding: 30px;
 }
+
+#form{
+    width: 100%;
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
