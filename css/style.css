@@ -1,6 +1,7 @@
-@media screen {
-    #header-img{
-        width: 200px;
+@media (max-width: 600px) {
+    ul{
+        display: flex;
+        
     }
 }
 #header-img{
@@ -15,5 +16,13 @@
     background-color: lightblue;
     height: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width: 600px){
+    input{
+        width: 100px;
+    } 
+
 }
