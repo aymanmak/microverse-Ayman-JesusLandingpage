@@ -10,7 +10,8 @@
 #header{
     padding: 30px;
 }
-
+#nav-bar{position:fixed;
+top:0:}
 #form{
     width: 100%;
     background-color: lightblue;
